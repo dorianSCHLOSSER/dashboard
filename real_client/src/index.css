@@ -1,0 +1,91 @@
+:root {
+    --color_gray: #5B5753;
+    --color_gray_transparent: rgba(50, 50, 93, 0.25);
+    --color_blue: #3874CB;
+    --color_green: #40d02a;
+    --color_green_bold: #06830c;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+/* ITEMS */
+
+.item {
+    cursor: pointer;
+    box-shadow: var(--color_gray_transparent) 0 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+/* MODAL API */
+
+.list_api {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px 0 20px;
+    border: 1px solid transparent;
+    padding: 10px 0 10px 0;
+}
+
+.list_api:hover {
+    border: 1px solid var(--color_gray_transparent);
+    cursor: pointer;
+}
+
+.iconClose, .iconOpen {
+    border-radius: 10px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+}
+
+.iconOpen {
+    margin-bottom: 20px;
+    color: var(--color_green);
+    width: 50px !important;
+    height: 50px !important;
+}
+.iconClose:hover {
+    background-color: var(--color_gray_transparent);
+}
+
+.iconOpen:hover {
+    color: var(--color_green_bold);
+}
+
+.headerWidget {
+    display: flex;
+    background-color: var(--color_gray);
+}
+
+.iconCloseItem {
+    margin: 2px;
+    color: white;
+}
+
+.h3_list_api {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px 0 20px;
+    padding: 10px 0 10px 0;
+    color: var(--color_blue)
+}
+
+.services span {
+    color: var(--color_blue)
+}
+

@@ -1,0 +1,19 @@
+{
+  "name": "GMail",
+  "widgets": [
+    {
+      "name": "Mail List",
+      "description": "Get a list of x mails",
+      "params": [
+        {
+          "name": "q",
+          "type": "String"
+        },
+        {
+          "name": "Refresh time",
+          "type": "Number"
+        }
+      ]
+    }
+  ]
+}

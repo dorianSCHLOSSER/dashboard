@@ -1,0 +1,43 @@
+{
+  "name": "Youtube",
+  "widgets": [
+    {
+      "name": "views of a channel",
+      "description": "Get number of views of a channel",
+      "params": [
+        {
+          "name": "Channel username",
+          "type": "String"
+        },
+        {
+          "name": "Refresh time",
+          "type": "number"
+        }]
+    },
+    {
+      "name": "Video Data",
+      "description": "Get datas of a video",
+      "params": [
+        {
+          "name": "id",
+          "type": "String"
+        },
+        {
+          "name": "Refresh time",
+          "type": "number"
+        }]
+    },
+    {
+      "name": "Susbcriptiions of a channel",
+      "description": "Get the number of subscriptions of a channel",
+      "params": [
+        {
+          "name": "channel username",
+          "type": "String"
+        },
+        {
+          "name": "Refresh time",
+          "type": "number"
+        }]
+    }]
+}
